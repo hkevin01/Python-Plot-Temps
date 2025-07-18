@@ -22,7 +22,7 @@ def get_marker_color(magnitude):
 
 def main():
     """Main function to process and plot earthquake data."""
-    data_file = open('docs/earthquake_data.csv', encoding='utf-8')
+    data_file = open('data/earthquake_data.csv', encoding='utf-8')
     lats, lons, magnitudes, timestrings = [], [], [], []
     for index, line in enumerate(data_file.readlines()):
         if index > 0:
