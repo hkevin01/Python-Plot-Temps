@@ -1,0 +1,5 @@
+{
+  "suggestionBehavior": "aggressive",
+  "enableTelemetry": false,
+  "preferredLanguages": ["python"]
+}
